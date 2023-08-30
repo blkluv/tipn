@@ -16,7 +16,7 @@ export default function Footer() {
           rel="noopener noreferrer"
         >
           <div className={styles.box}>
-            Powered by{' '}
+            Made with{' '}
             <img src="/solana.png" alt="Solana Logo" width={98} height={40} />
           </div>
         </a>
@@ -25,13 +25,13 @@ export default function Footer() {
         <a href="/faq">FAQ</a>
 
         <div className={styles.footerSocial}>
-          <a href="https://twitter.com/TipLinkOfficial" 
+          <a href="https://twitter.com/luvnft" 
           target="_blank" rel="noopener noreferrer">
             <Twitter />
           </a>
-          <a href="https://discord.gg/4bXYT7dxR3" 
+          <a href="https://discord.gg/Sp9fubxqgf" 
           target="_blank" rel="noopener noreferrer">
-            <span className='material-icons'>discord</span>
+            <span className='material-icons'>Discord</span>
           </a>
         </div>
       </div>
