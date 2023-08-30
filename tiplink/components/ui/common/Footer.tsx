@@ -25,15 +25,13 @@ export default function Footer() {
         <a href="/faq">FAQ</a>
 
         <div className={styles.footerSocial}>
-          <a href="https://twitter.com/luvnft" 
-          target="_blank" rel="noopener noreferrer">
-            <Twitter />
-          </a>
-          <a href="https://discord.gg/Sp9fubxqgf" 
-          target="_blank" rel="noopener noreferrer">
-            <span className='material-icons'>Discord</span>
-          </a>
-        </div>
+  <a href="https://twitter.com/luvnft" target="_blank" rel="noopener noreferrer">
+    <Twitter />
+  </a>
+  <a href="https://discord.gg/Sp9fubxqgf" target="_blank" rel="noopener noreferrer">
+    <span className="material-icons">chat_bubble</span>
+  </a>
+</div>
       </div>
     </div>
   );
