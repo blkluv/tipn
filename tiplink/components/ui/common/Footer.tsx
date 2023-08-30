@@ -29,7 +29,7 @@ export default function Footer() {
     <Twitter />
   </a>
   <a href="https://discord.gg/Sp9fubxqgf" target="_blank" rel="noopener noreferrer">
-    <span className="material-icons">chat_bubble</span>
+    <span className="material-icons">video_call</span>
   </a>
 </div>
       </div>
