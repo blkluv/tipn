@@ -76,7 +76,7 @@ export default function FrontPage() {
           <Box className={styles.tagLine}>
             <Typography variant="h4">Links are now money</Typography>
             <Typography>Send crypto to anyone, even if they don't have a wallet.</Typography>
-            <Typography>No app needed!</Typography>
+            <Typography>No app needed! <a href="https://crypto.link.com?ref=lb">Buy</a> crypto with a debit card.</Typography>
           </Box>
 
           <Box className={styles.frontBox} sx={{ m: 2, }}>
