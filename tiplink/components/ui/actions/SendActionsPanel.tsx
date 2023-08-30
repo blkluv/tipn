@@ -22,8 +22,8 @@ const SendActionsPanel = () => {
       <Box style={{textAlign: "center"}}>
         <ActionsPanelRow
           icon={<IconLink />}
-          title="Send as TipLink"
-          subtitle="Create a TipLink with this value that you can share with anyone"
+          title="Send as Tip$"
+          subtitle="Create Tip$ with this value that you can share with anyone"
           onClick={() => {
             setActionState("createTipLink");
           }}/>

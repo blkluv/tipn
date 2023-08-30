@@ -87,23 +87,23 @@ export default function FrontPage() {
               cryptoQuickInputOptions={cryptoQuickInputDefault}
               onValueChange={setInputAmountSOL} 
             />
-            <LoadingButton sx={{m: 2}} variant="contained" onClick={onClickCreateTipLink} loading={loading}>Create TipLink</LoadingButton>
+            <LoadingButton sx={{m: 2}} variant="contained" onClick={onClickCreateTipLink} loading={loading}>Create Tip$</LoadingButton>
             <Typography>
-              Want to deposit value later? <a onClick={onClickEmptyTipLink}>Create an empty TipLink.</a>
+              Want to deposit value later? <a onClick={onClickEmptyTipLink}>Create an empty Tip$.</a>
             </Typography>
           </Box>
 
           <Box className={styles.frontDesc}>
             <Typography variant='h5' className={styles.howTitle}><u>How it works</u></Typography>
             <dl>
-              <dt>Create a Tiplink.</dt>
-              <dd>It’s like buying a gift card, create a TipLink by depositing how much you want to send.</dd>
-              <dt>Share a Tiplink.</dt>
-              <dd>Copy the TipLink URL and send it to anyone, or show them the QR code.</dd>
+              <dt>Create a Tip$.</dt>
+              <dd>It’s like buying a gift card, create a Tip$ by depositing how much you want to send.</dd>
+              <dt>Share a Tip$.</dt>
+              <dd>Copy the Tip$ URL and send it to anyone, or show them the QR code.</dd>
               <dt>That's it.</dt>
               <dd>You just sent someone crypto and they can send or use it even if they don’t have a wallet.*</dd>
             </dl>
-            <Typography className={styles.ps}>*Psst, the TipLink is the wallet!</Typography>
+            <Typography className={styles.ps}>*Psst, the Tip$ is the wallet!</Typography>
           </Box>
         </main>
         {/* <Footer/> */}
