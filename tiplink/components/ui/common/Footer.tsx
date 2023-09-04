@@ -7,11 +7,11 @@ export default function Footer() {
   return (
     <div className={styles.footer}>
       <div>
-        <Copyright style={{fontSize: '0.8rem'}}/> 2023
+        <Copyright style={{ fontSize: '0.8rem' }} /> 2023
       </div>
       <div className={styles.poweredBy}>
         <a
-          href="https://solana.com/"
+          href="https://luvnft.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -23,15 +23,11 @@ export default function Footer() {
       </div>
       <div className={styles.footerLinks}>
         <a href="/faq">FAQ</a>
-
         <div className={styles.footerSocial}>
-  <a href="https://twitter.com/luvnft" target="_blank" rel="noopener noreferrer">
-    <Twitter />
-  </a>
-  <a href="https://discord.gg/Sp9fubxqgf" target="_blank" rel="noopener noreferrer">
-    <span className="material-icons">video_call</span>
-  </a>
-</div>
+          <a href="https://twitter.com/luvnft" target="_blank" rel="noopener noreferrer">
+            <Twitter />
+          </a>
+        </div>
       </div>
     </div>
   );
